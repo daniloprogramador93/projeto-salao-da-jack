@@ -5,73 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salão da Jack</title>
-    <style>
-        @charset "UTF-8";
-        *{
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        html,body{
-           
-           
-            width: 100vw;
-        }
-        header{
-            background-color: rgb(45, 51, 56);
-             
-        }
-        main{
-            max-width: 500px;
-            margin: auto;
-            
-        }
-        
-        .setores{
-            height: 40vh;
-            position:relative;
-            background-color: rgba(137, 43, 226, 0.541);
-            border: 1px solid black;
-        }
-        .paragrafos{
-            padding: 15px;
-            margin-left: 15px;
-            padding-top: 5%;
-            width: 30%;
-            
-        }
-        .imagens{
-            position: absolute;
-            top: 5%;
-            left: 50%;
-            width: 48%;
-            height: 90%;
-            background-color: rgb(52, 102, 102);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> <!-- quero uma caixinha de texto fixa para acompanhar a navegação com um texto e link dizendo"peça um orçamento" -->
     <header>
-        <div>
-            <img src="" alt="">
-        </div>
-        
-        <div>
-            <h1></h1>
-        </div>
-
-        <nav>
-
+            <div id="logo">
+                <img src="" alt="">
+            </div>
+            <div id="h1">
+                <h1>Jackeline Luna</h1>
+            </div>
+            <div id="redessociais">
+                <a href="#"><img src="" alt="instagram"></a>
+                <a href="#"><img src="" alt="tiktok"></a>
+            </div>
+        <nav id="menus">
             <a href="#">Progressiva</a>
             <a href="#">Botox</a>
             <a href="#">Pintura</a>
             <a href="#">Corte</a>
             <a href="#">Outros</a>
         </nav>
-        <div id="redessociais">
-            <a href="#"><img src="" alt="instagram"></a>
-            <a href="#"><img src="" alt="tiktok"></a>
-        </div>
     </header>
     <main>
        <section id="geral" class="setores"> <!-- apresentação da cabelereira -->
@@ -81,45 +35,33 @@
         <div class="imagens">
             <img  src="" alt="">
         </div>
-        
-        
-       </section>
-       
+       </section>       
        <section id="progressiva" class="setores">
         <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat doloremque.</p>
-        
         <div class="imagens">
             <img src="" alt="">
         </div>
        </section>
-
        <section id="botox" class="setores">
         <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat do</p>
         <div class="imagens">
             <img src="" alt="">
         </div>
        </section>
-
        <section id="pintura" class="setores">
         <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-
         <div class="imagens">
             <img src="" alt="">
         </div>
-
        </section>
-
        <section id="corte" class="setores">
         <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat doloremque. </p>
-
         <div class="imagens">
             <img src="" alt="">
         </div>
-        
        </section>
     </main>
     <footer>
-
 
     </footer>
 </body>
