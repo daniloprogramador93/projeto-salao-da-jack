@@ -10,15 +10,44 @@
         *{
             margin: 0px;
             padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
         html,body{
-            background-color: black;
-            
+           
+           
             width: 100vw;
-
+        }
+        header{
+            background-color: rgb(45, 51, 56);
+             
+        }
+        main{
+            max-width: 500px;
+            margin: auto;
+            
         }
         
-        
+        .setores{
+            height: 40vh;
+            position:relative;
+            background-color: rgba(137, 43, 226, 0.541);
+            border: 1px solid black;
+        }
+        .paragrafos{
+            padding: 15px;
+            margin-left: 15px;
+            padding-top: 5%;
+            width: 30%;
+            
+        }
+        .imagens{
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            width: 48%;
+            height: 90%;
+            background-color: rgb(52, 102, 102);
+        }
     </style>
 </head>
 <body> <!-- quero uma caixinha de texto fixa para acompanhar a navegação com um texto e link dizendo"peça um orçamento" -->
@@ -45,24 +74,48 @@
         </div>
     </header>
     <main>
-       <section id="geral"> <!-- apresentação da cabelereira -->
+       <section id="geral" class="setores"> <!-- apresentação da cabelereira -->
+        <div id="p1">
+            <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat doloremque. </p>
+        </div>
+        <div class="imagens">
+            <img  src="" alt="">
+        </div>
+        
         
        </section>
        
-       <section id="progressiva">
+       <section id="progressiva" class="setores">
+        <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat doloremque.</p>
+        
+        <div class="imagens">
+            <img src="" alt="">
+        </div>
+       </section>
+
+       <section id="botox" class="setores">
+        <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat do</p>
+        <div class="imagens">
+            <img src="" alt="">
+        </div>
+       </section>
+
+       <section id="pintura" class="setores">
+        <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+        <div class="imagens">
+            <img src="" alt="">
+        </div>
 
        </section>
 
-       <section id="botox">
+       <section id="corte" class="setores">
+        <p class="paragrafos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta corrupti praesentium porro repellat doloremque. </p>
 
-       </section>
-
-       <section id="pintura">
-
-       </section>
-
-       <section id="corte">
-
+        <div class="imagens">
+            <img src="" alt="">
+        </div>
+        
        </section>
     </main>
     <footer>
